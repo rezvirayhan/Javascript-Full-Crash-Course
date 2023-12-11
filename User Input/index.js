@@ -1,7 +1,13 @@
-let student = 20;
-// student = student + 1 
-// student = student - 1
-// student = student * 1 
-// student = student / 2
+// Easy Way with a window promt
 
-console.log(student);
+// let userName = window.prompt("What Is Your Name: ")
+
+// console.log(userName);
+
+let userName;
+
+document.getElementById("myBtn").onclick = function () {
+    userName = document.getElementById("myText").value;
+    console.log(userName);
+    document.getElementById("mylabel").innerHTML = "Hello " + userName;
+}
