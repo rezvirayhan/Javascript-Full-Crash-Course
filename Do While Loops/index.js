@@ -4,7 +4,6 @@
  * repeat if condition is true;
  * 
  */
-
 let userName;
 do {
     userName = window.prompt("Enter Your Name:. ")
