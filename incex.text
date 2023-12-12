@@ -1,7 +1,4 @@
-
- Number Guessing Game 
- temperature conversion program 
- 32 (02:15:49) arrays 
+e arrays 
  loop through an array 
  sort an array of strings 
  2D arrays 
@@ -9,4 +6,4 @@
  rest parameters 
  callbacks 
  array.forEach() 
- array.map() 
+ array.map()
